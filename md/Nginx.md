@@ -8,4 +8,4 @@
 netstat -ano |findstr 80
 ```
 
-![image-20220316101309075](..\images\image-20220316101309075.png)
+![image-20220316101309075](https://raw.githubusercontent.com/twyyy/tw97-document/master/images/image-20220316101309075.png)
