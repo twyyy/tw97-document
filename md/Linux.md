@@ -256,3 +256,21 @@ CentOS官网：https://www.centos.org/
 
 ![image-20211225150702692](https://raw.githubusercontent.com/twyyy/tw97-document/master/images/image-20211225150702692.png)
 
+# 连接超时设置
+
+修改以下文件
+
+```shell
+vi /etc/ssh/sshd_config
+```
+
+修改以下两个参数
+
+ClientAliveInterval：心跳包间隔时间（秒）
+ClientAliveCountMax：心跳包超时时间（秒）
+
+重启SSH服务
+
+```shell
+systemctl restart sshd
+```
