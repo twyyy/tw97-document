@@ -117,6 +117,7 @@
 .apiary.io remoteproxy
 .apigee.com remoteproxy
 .apple.com remoteproxy
+.apple.com.cn remoteproxy
 .appledaily.com remoteproxy
 .appspot.com remoteproxy
 .archive.is remoteproxy
@@ -4214,7 +4215,6 @@
 .appchina.com localproxy
 .appgame.com localproxy
 .appinn.com localproxy
-.apple.com localproxy
 .apple2003.com localproxy
 .appvv.com localproxy
 .appying.com localproxy
@@ -11203,6 +11203,7 @@
 .xpjy.net localproxy
 .xpsy.net localproxy
 .xpxww.com localproxy
+.xp.apple.com localproxy
 .xqingnet.com localproxy
 .xrtvu.com localproxy
 .xs163.net localproxy
