@@ -792,6 +792,7 @@
 .googlesile.com remoteproxy
 .googleusercontent.com remoteproxy
 .googlevideo.com remoteproxy
+.google-analytics.com remoteproxy
 .gopetition.com remoteproxy
 .gospelherald.com remoteproxy
 .gotw.ca remoteproxy
@@ -4738,6 +4739,7 @@
 .cdn20.com localproxy
 .cdn86.net localproxy
 .cdnet110.com localproxy
+.cdn-go.cn localproxy
 .cdqss.com localproxy
 .cdrfjc.com localproxy
 .cdrtvu.com localproxy
@@ -6514,7 +6516,6 @@
 .goodbaby.com localproxy
 .goodbabygroup.com localproxy
 .goodkejian.com localproxy
-.google-analytics.com localproxy
 .googleadservices.com localproxy
 .googlesyndication.com localproxy
 .googletagmanager.com localproxy
@@ -9195,6 +9196,7 @@
 .qc188.com localproxy
 .qc6.com localproxy
 .qcloud.com localproxy
+.qcloudimg.com localproxy
 .qcoco.com localproxy
 .qcr.cc localproxy
 .qcrencai.com localproxy
@@ -10264,7 +10266,10 @@
 .teeqee.com localproxy
 .telecomhr.com localproxy
 .tencent.com localproxy
+.tencentcs.com localproxy
 .tencentmind.com localproxy
+.tencent-cloud.cn localproxy
+.tencent-cloud.com localproxy
 .tengfang.net localproxy
 .tenpay.com localproxy
 .tentrue.com localproxy
