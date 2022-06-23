@@ -59,6 +59,7 @@
 .actimes.com.au remoteproxy
 .aculo.us remoteproxy
 .addictedtocoffee.de remoteproxy
+.adsystem.com remoteproxy
 .adultfriendfinder.com remoteproxy
 .adultkeep.net remoteproxy
 .advanscene.com remoteproxy
@@ -90,6 +91,7 @@
 .alwaysdata.com remoteproxy
 .alwaysdata.net remoteproxy
 .am730.com.hk remoteproxy
+.amazon.co.jp remoteproxy
 .amazon.com remoteproxy
 .ameblo.jp remoteproxy
 .americangreencard.com remoteproxy
@@ -259,6 +261,7 @@
 .buzzurl.jp remoteproxy
 .bwsj.hk remoteproxy
 .byethost8.com remoteproxy
+.c.s-microsoft.com remoteproxy
 .c-est-simple.com remoteproxy
 .c-spanvideo.org remoteproxy
 .cactusvpn.com remoteproxy
@@ -456,6 +459,7 @@
 .deck.ly remoteproxy
 .delcamp.net remoteproxy
 .delicious.com remoteproxy
+.demdex.net remoteproxy
 .democrats.org remoteproxy
 .derekhsu.homeip.net remoteproxy
 .desc.se remoteproxy
@@ -1140,6 +1144,7 @@
 .liuhanyu.com remoteproxy
 .liujianshu.com remoteproxy
 .liuxiaotong.com remoteproxy
+.live.com remoteproxy
 .liveleak.com remoteproxy
 .livestation.com remoteproxy
 .livestream.com remoteproxy
@@ -1151,6 +1156,7 @@
 .lockdown.com remoteproxy
 .lockestek.com remoteproxy
 .logbot.net remoteproxy
+.logincdn.msauth.net remoteproxy
 .logiqx.com remoteproxy
 .logmike.com remoteproxy
 .loiclemeur.com remoteproxy
@@ -1210,6 +1216,7 @@
 .megurineluka.com remoteproxy
 .meirixiaochao.com remoteproxy
 .melon-peach.com remoteproxy
+.mem.gfx.ms remoteproxy
 .memedia.cn remoteproxy
 .merit-times.com.tw remoteproxy
 .mesotw.com remoteproxy
@@ -1222,6 +1229,7 @@
 .mhradio.org remoteproxy
 .michaelanti.com remoteproxy
 .michaelmarketl.com remoteproxy
+.microsoft.com remoteproxy
 .middle-way.net remoteproxy
 .mihk.hk remoteproxy
 .mihua.org remoteproxy
@@ -1279,6 +1287,7 @@
 .mpfinance.com remoteproxy
 .mpinews.com remoteproxy
 .mrtweet.com remoteproxy
+.mscom.demdex.net remoteproxy
 .msguancha.com remoteproxy
 .msn.com.tw remoteproxy
 .mthruf.com remoteproxy
@@ -1672,6 +1681,7 @@
 .savetibet.org remoteproxy
 .savevid.com remoteproxy
 .say2.info remoteproxy
+.sc.omtrdc.net remoteproxy
 .scmp.com remoteproxy
 .scmpchinese.com remoteproxy
 .scribd.com remoteproxy
@@ -8261,7 +8271,6 @@
 .liuxue51.net localproxy
 .liuxue86.com localproxy
 .liuxueca.com localproxy
-.live.com localproxy
 .live754.com localproxy
 .live800.com localproxy
 .liveuc.net localproxy
@@ -8572,7 +8581,7 @@
 .miaozhen.com localproxy
 .micamika.com localproxy
 .microad-cn.com localproxy
-.microsoft.com localproxy
+.microsoftstore.com.cn localproxy
 .midea.com localproxy
 .miercn.com localproxy
 .miit.cc localproxy
@@ -10002,6 +10011,7 @@
 .sshr.net localproxy
 .ssjy.net localproxy
 .ssjzw.com localproxy
+.ssl-images-amazon.cn localproxy
 .sslibrary.com localproxy
 .ssqzj.com localproxy
 .ssrcsc.com localproxy
