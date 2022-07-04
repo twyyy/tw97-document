@@ -10,19 +10,19 @@
 
 下载地址：<https://nodejs.org/zh-cn/>
 
-![image-20220704093905](../images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704093905.png)
+![image-20220704093905](https://raw.githubusercontent.com/twyyy/tw97-document/master/images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704093905.png)
 
-![image-20220704094105](../images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094105.png)
+![image-20220704094105](https://raw.githubusercontent.com/twyyy/tw97-document/master/images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094105.png)
 
-![image-20220704094419](../images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094419.png)
+![image-20220704094419](https://raw.githubusercontent.com/twyyy/tw97-document/master/images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094419.png)
 
-![image-20220704094547](../images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094547.png)
+![image-20220704094547](https://raw.githubusercontent.com/twyyy/tw97-document/master/images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094547.png)
 
-![image-20220704094710](../images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094710.png)
+![image-20220704094710](https://raw.githubusercontent.com/twyyy/tw97-document/master/images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094710.png)
 
-![image-20220704094755](../images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094755.png)
+![image-20220704094755](https://raw.githubusercontent.com/twyyy/tw97-document/master/images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094755.png)
 
-![image-20220704094847](../images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094847.png)
+![image-20220704094847](https://raw.githubusercontent.com/twyyy/tw97-document/master/images/Node.js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/image-20220704094847.png)
 
 打开命令行工具，输入以下命令查看安装完成node.js的版本
 
