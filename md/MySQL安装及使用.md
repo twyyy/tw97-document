@@ -24,19 +24,19 @@ docker run -d --name mysql --restart=always -p 3306:3306 -v /usr/local/mysql/con
 
 ### 安装
 
-```shell
+```sql
 INSTALL COMPONENT 'file://component_validate_password';
 ```
 
 ### 查看已安装组件
 
-```shell
+```sql
 SELECT * FROM mysql.component;
 ```
 
 ### 查看相关配置
 
-```shell
+```sql
 SHOW VARIABLES LIKE 'validate_password.%';
 ```
 
@@ -56,7 +56,7 @@ SHOW VARIABLES LIKE 'validate_password.%';
 
 ### 卸载
 
-```shell
+```sql
 UNINSTALL COMPONENT 'file://component_validate_password';
 ```
 
@@ -66,27 +66,27 @@ UNINSTALL COMPONENT 'file://component_validate_password';
 
 ### linux安装
 
-```shell
+```sql
 INSTALL PLUGIN CONNECTION_CONTROL SONAME 'connection_control.so';
 INSTALL PLUGIN CONNECTION_CONTROL_FAILED_LOGIN_ATTEMPTS SONAME 'connection_control.so';
 ```
 
 ### windows安装
 
-```shell
+```sql
 INSTALL PLUGIN CONNECTION_CONTROL SONAME 'connection_control.dll';
 INSTALL PLUGIN CONNECTION_CONTROL_FAILED_LOGIN_ATTEMPTS SONAME 'connection_control.dll';
 ```
 
 ### 查看已安装插件
 
-```shell
+```sql
 SELECT PLUGIN_NAME, PLUGIN_STATUS FROM INFORMATION_SCHEMA.PLUGINS WHERE PLUGIN_NAME LIKE 'connection%';
 ```
 
 ### 查看相关配置
 
-```shell
+```sql
 show variables like 'CONNECTION_CONTROL%';
 ```
 
@@ -102,7 +102,7 @@ show variables like 'CONNECTION_CONTROL%';
 
 ### 卸载
 
-```shell
+```sql
 UNINSTALL PLUGIN CONNECTION_CONTROL;
 UNINSTALL PLUGIN CONNECTION_CONTROL_FAILED_LOGIN_ATTEMPTS;
 ```
