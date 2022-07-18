@@ -110,7 +110,7 @@ show variables like 'CONNECTION_CONTROL%';
   说明：事务A只能读取到事务B提交后的数据
   问题：不可重复读
 
-3. Repeatable read（可重复读）
+3. Repeatable read（可重复读）（mysql默认）
   说明：无论事务开启了多久，每次读取到的数据都是事务开启时的数据，即使数据已经发生了变化
   问题：幻读现象
 
