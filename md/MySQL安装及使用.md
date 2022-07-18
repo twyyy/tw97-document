@@ -108,3 +108,90 @@ UNINSTALL PLUGIN CONNECTION_CONTROL_FAILED_LOGIN_ATTEMPTS;
 ```
 
 ------
+
+## 重点知识
+
+### SQL分类
+
+|全称|简称|说明|代表关键字|
+|--|--|--|--|
+|Data Query Language|DQL|数据查询语言|select|
+|Data Manipulation Language|DML|数据操作语言|insert、update、delete|
+|Data Definition Language|DDL|数据定义语言|create、drop、alter|
+|Transaction Control Language|TCL|事务控制语言|begin、rollback、commit|
+|Data Control Language|DCL|数据控制语言|grant、revoke|
+
+### SQL编写顺序与执行顺序（大致）
+
+|序号|编写顺序|执行顺序|
+|-|-|-|
+|1|select|from|
+|2|from|where|
+|3|where|group by|
+|4|group by|having|
+|5|having|select|
+|6|order by|order by|
+|7|limit|limit|
+
+### 笛卡尔积现象
+
+如果两张表进行连接查询，在没有任何条件限制下，最终的查询结果数是两张表记录数的乘积
+
+解决方法：连接两张表时做条件限制
+
+说明：即使使用条件限制避免了笛卡尔积现象，查询出来的数据是有效的记录，但是匹配次数依旧不会减少
+
+### 事务
+
+在mysql中，默认情况下一条sql语句就是一个事务，不过mysql做了自动提交。
+
+#### 事务的特性
+
+|全称|简称|中文表达|说明|
+|-|-|-|-|
+|Atomicity|A|原子性|事务是一个不可再分的工作单位，要么全部成功，要么全部失败|
+|Consistency|C|一致性|在事务开始之前和事务结束以后，数据库的完整性约束没有被破坏|
+|Isolation|I|隔离性|多个事务并发访问时，事务之间是隔离的，一个事务不应该影响其它事务运行效果|
+|Durability|D|持久性|事务一旦提交，该事务对数据库所作的更改便持久的保存在数据库之中|
+
+#### 事务的隔离级别
+
+##### Read uncommitted（读未提交）
+
+说明：事务A可以读取到事务B未提交的数据
+
+问题：脏读现象
+
+##### Read committed（读已提交）
+
+说明：事务A只能读取到事务B提交后的数据
+
+问题：不可重复读
+
+##### Repeatable read（重复读）
+
+说明：无论事务开启了多久，每次读取到的数据都是事务开启时的数据，即使数据已经发生了变化
+
+问题：幻读现象
+
+##### Serializable（序列化）
+
+说明：事务排队，不能并发
+
+问题：锁表
+
+### 数据库设计范式
+
+1. 第一范式：
+  
+    要求任何一张表都必须有主键，每一个字段原子性不可再分
+
+2. 第二范式：
+
+    要求所有非主键字段完全依赖主键，不能产生部分依赖
+
+3. 第三范式：
+
+    要求所有非主键字段直接依赖主键，不能产生传递依赖
+
+数据库设计三范式是理论上的，在实际开发过程中可能会使用冗余换速度。
